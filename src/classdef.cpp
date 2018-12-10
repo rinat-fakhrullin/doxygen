@@ -604,10 +604,10 @@ void ClassDef::internalInsertMember(MemberDef *md,
           break;
       }
     }
-    if (!isSimple) // not a simple field -> not a simple struct
-    {
-      m_impl->isSimple = FALSE;
-    }
+    //if (!isSimple) // not a simple field -> not a simple struct
+    //{
+    //  m_impl->isSimple = FALSE;
+    //}
     //printf("adding %s simple=%d total_simple=%d\n",name().data(),isSimple,m_impl->isSimple);
 
     /*******************************************************/
